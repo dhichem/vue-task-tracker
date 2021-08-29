@@ -16,6 +16,9 @@ export default {
   components: {
     Button,
   },
+  methods: {
+    onclick() {},
+  },
 };
 </script>
 
