@@ -16,7 +16,7 @@ export default function AddAbsence({ navigation }) {
             <Button
                 style={styles.button}
                 title='Submit'
-                onPress={() => navigation.navigate('Calendar', { date: navigation.getParam('dateString'), reason: reason })}
+                onPress={() => navigation.navigate('CalendarAbsence', { date: navigation.getParam('dateString'), reason: reason })}
             />
         </View>
     );

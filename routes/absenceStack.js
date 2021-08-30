@@ -1,22 +1,25 @@
 import { createStackNavigator } from 'react-navigation-stack';
-import Home from '../screens/home';
+import CalendarAbsence from '../screens/calendarAbsence';
 import AddAbsence from '../screens/addAbsence';
 import Header from '../shared/header';
 import React from 'react';
 
 const screens = {
-    Home: {
-        screen: Home,
+    CalendarAbsence: {
+        screen: CalendarAbsence,
         navigationOptions: ({ navigation }) => {
             return {
-                headerTitle: () => <Header navigation={navigation} title='Home' />
+                headerTitle: () => <Header navigation={navigation} title='Absence' />
             }
         }
+    },
+    AddAbsence: {
+        screen: AddAbsence,
     },
 };
 
 
 // home stack navigator screens
-const HomeStack = createStackNavigator(screens);
+const AbsenceStack = createStackNavigator(screens);
 
-export default HomeStack;
+export default AbsenceStack;
