@@ -4,19 +4,13 @@
       "id": "2",
       "text": "dentist appointment",
       "day": "August 27th at 4:30am",
-      "reminder": false
-    },
-    {
-      "text": "aaaaaa",
-      "day": "dazdz",
-      "reminder": false,
-      "id": "dm-isFK"
+      "reminder": true
     },
     {
       "text": "aaaaaa",
       "day": "dazdz",
       "reminder": true,
-      "id": "_2N_AVk"
+      "id": "dm-isFK"
     }
   ]
 }
